@@ -1,0 +1,182 @@
+.article-clean {
+  color: #56585b;
+  background-color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+.article-clean .intro {
+  font-size: 16px;
+  margin: 0 auto 30px;
+}
+
+.article-clean .intro h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  line-height: 1.5;
+  color: inherit;
+  margin-top: 20px;
+}
+
+.article-clean .intro p {
+  color: #929292;
+  font-size: 12px;
+}
+
+.article-clean .intro p .by {
+  font-style: italic;
+}
+
+.article-clean .intro p .date {
+  text-transform: uppercase;
+  padding: 4px 0 4px 10px;
+  margin-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.article-clean .intro p a {
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 3px;
+}
+
+.article-clean .intro img {
+  margin-top: 20px;
+}
+
+.article-clean .text p {
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+@media (min-width:768px) {
+  .article-clean .text p {
+    font-size: 16px;
+  }
+}
+
+.article-clean .text h2 {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  line-height: 1.45;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (min-width:768px) {
+  .article-clean .text h2 {
+    font-size: 20px;
+  }
+}
+
+.article-clean .text figure {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.article-clean .text figure img {
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+
+.resim {
+  object-fit: fill;
+  width: 40%;
+}
+
+#renk {
+}
+
+#deneme {
+  background-color: black;
+}
+
+.btn.btn-primary.btn-block:hover {
+  background-color: black !important;
+  transition: background-color 1s;
+}
+
+.btn.btn-primary.btn-block {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  text-align: center;
+}
+
+.btn.btn-primary:hover {
+  background-color: black !important;
+  transition: background 1s;
+  border-color: black !important;
+}
+
+.navbar-brand:hover {
+  color: darkred !important;
+  transition: color 1s;
+}
+
+.navbar-toggler-icon {
+}
+
+.nav-item {
+}
+
+@media (max-width: 700px) {
+  .resim {
+    width: 90%;
+  }
+}
+
+.nav-link {
+  /*font-weight: bold;*/
+  letter-spacing: 0.1px;
+  font-size: 15px;
+}
+
+.dropdown-item {
+  font-weight: bold!important;
+}
+
+@media (min-width: 1200px) {
+  .navbar-brand {
+    letter-spacing: 1.5px;
+  }
+}
+
+.btn.btn-primary {
+  letter-spacing: 1px;
+  width: 120px;
+  background: rgb(224,15,35);
+  border-radius: 5px;
+  border-color: rgb(224,15,35);
+  color: white;
+}
+
+.butonz {
+  width: 42px !important;
+  background: #121416 !important;
+  border-color: rgb(0,0,0) !important;
+  border-radius: 5px !important;
+}
+
+.parag {
+  background: var(--danger);
+  color: var(--white);
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: var(--danger);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .parag {
+    letter-spacing: 0px;
+  }
+}
+
